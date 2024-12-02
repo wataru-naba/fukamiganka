@@ -1,0 +1,5 @@
+# CakePHP specific files #
+##########################
+/rsvapp/*
+/old/*
+/rsvadmin/*

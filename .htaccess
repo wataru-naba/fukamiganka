@@ -1,0 +1,7 @@
+DirectoryIndex index.php index.html index.cgi
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html?$ / [NC,R,L]
+</IfModule>
+Redirect permanent //rsvapp https://fukami-ganka.jp/rsvapp/index/

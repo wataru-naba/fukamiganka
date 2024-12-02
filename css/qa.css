@@ -1,0 +1,62 @@
+.block_qa{
+    margin-top: 60px;
+    max-width:800px;}
+dl.qa{
+    margin-bottom: 60px;
+}
+dl.qa dd,
+dl.qa dt{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 45px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+dl.qa dt a{
+    color: #1d3994;
+    text-decoration: underline;
+}
+
+dl.qa dt a:hover{
+    color: #7ECEF4;
+    text-decoration: none;
+}
+
+dl.qa dd{
+    font-size: 2.0rem;
+    margin-bottom: 18px;
+}
+dl.qa dd::before{
+    content: '';
+    width: 28px;
+    height: 28px;
+    background: url('../images/qa_q.svg') no-repeat;
+    background-size: 100% auto;
+    left: 0;
+    top:50%;
+    margin-top: -14px;
+    position: absolute;
+}
+dl.qa dt::after,
+dl.qa dd::after{
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 35px;
+    border-right:  solid #7ECEF4 1px;
+    left: 0;
+}
+
+dl.qa dt::before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url('../images/qa_a.svg') no-repeat;
+    background-size: 100% auto;
+    left: 0;
+    top:50%;
+    margin-top: -12px;
+    position: absolute;
+}

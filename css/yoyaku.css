@@ -1,0 +1,315 @@
+@charset "UTF-8";
+section {
+  max-width: 900px;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  figure{
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+}
+
+
+
+p {
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+}
+
+span {
+  display: inline-block;
+}
+
+.s-title-a {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+}
+.catch {
+  border: solid 1px #595757;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.catch.aspect {
+  aspect-ratio: 10/4;
+}
+.catch.aspect .catch--inner {
+  font-size: 1.8rem;
+}
+.catch.aspect .catch--inner h3 {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.catch p {
+  font-size: 1.7rem;
+}
+@media screen and (max-width: 600px) {
+  .catch {
+    padding: 15px;
+  }
+  .catch p {
+    font-size: 1.5rem;
+  }
+  .catch.aspect .catch--inner {
+    font-size: 1.6rem;
+  }
+}
+
+.yoyaku-note {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 30px;
+}
+.yoyaku-note h4 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+.yoyaku-note strong {
+  font-weight: normal;
+  color: #E60012;
+}
+@media screen and (max-width: 600px) {
+  .yoyaku-note {
+    font-size: 1.5rem;
+  }
+}
+
+ul.dotto li {
+  padding-left: 25px;
+  position: relative;
+  margin-bottom: 10px;
+}
+ul.dotto li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+}
+ul.dotto li:last-child {
+  margin-bottom: 0;
+}
+
+.app-banner {
+  margin: 30px 0;
+  background: #5185C5;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.app-banner .item {
+  flex-basis: 49%;
+}
+.app-banner .item:nth-child(2) {
+  display: flex;
+}
+.app-banner .app-title {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.app-banner .app-title img {
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.app-banner .store-links {
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+}
+.app-banner .store-links .qr {
+  margin: 10px 30px;
+}
+@media screen and (max-width: 600px) {
+  .app-banner.a {
+    display: block;
+  }
+  .app-banner.a .app-title {
+    width: 100%;
+    aspect-ratio: 10/4;
+  }
+  .app-banner.a .store-links .qr {
+    display: none;
+  }
+  .app-banner.b {
+    padding: 30px 20px;
+  }
+  .app-banner.b .item:nth-child(2) {
+    flex-basis: 55%;
+  }
+  .app-banner.b .store-links .qr {
+    display: none;
+  }
+}
+
+.app-qr {
+  border: solid #5185C5 1px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.app-qr figure {
+  width: 500px;
+  max-width: 100%;
+}
+
+.yoyaku-information {
+  margin-bottom: 30px;
+  background: #D9EDFA;
+  position: relative;
+  padding: 80px 20px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.yoyaku-information p {
+  font-size: 1.6rem;
+}
+.yoyaku-information .small {
+  font-size: 1.3rem;
+}
+.yoyaku-information h3 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+}
+.yoyaku-information h2 {
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  background: rgba(81, 133, 197, 0.2);
+  font-size: 2rem;
+  color: #5185C5;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yoyaku-information h2 img {
+  height: 24px;
+}
+.yoyaku-information a {
+  margin: 20px auto;
+  width: 70%;
+  display: block;
+}
+.yoyaku-information a:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 600px) {
+  .yoyaku-information h2 img {
+    height: 14px;
+  }
+  .yoyaku-information h3 {
+    font-size: 1.8rem;
+  }
+  .yoyaku-information .small {
+    font-size: 1rem;
+  }
+  .yoyaku-information p {
+    font-size: 1.3rem;
+  }
+  .yoyaku-information a {
+    width: 90%;
+  }
+}
+
+.s-title-b {
+  background: #5185C5;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.yoyaku-step li dl {
+  margin-bottom: 40px;
+}
+.yoyaku-step li dt {
+  padding-left: 65px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #5185C5;
+  margin-bottom: 30px;
+  position: relative;
+}
+.yoyaku-step li dt::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.yoyaku-step li:nth-child(1) dt::before {
+  background: url("../images/yoyaku/icon_01.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(2) dt::before {
+  background: url("../images/yoyaku/icon_04.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(3) dt::before {
+  background: url("../images/yoyaku/icon_03.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(4) dt::before {
+  background: url("../images/yoyaku/icon_04.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(5) dt::before {
+  background: url("../images/yoyaku/icon_05.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(6) dt::before {
+  background: url("../images/yoyaku/icon_02.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(7) dt::before {
+  background: url("../images/yoyaku/icon_06.webp") no-repeat;
+  background-size: 100% 100%;
+}
+@media screen and (max-width: 600px) {
+  .yoyaku-step li dt {
+    font-size: 1.8rem;
+  }
+}
+
+.youtube {
+  width: 100%;
+  aspect-ratio: 10/6;
+  position: relative;
+}
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}/*# sourceMappingURL=yoyaku.css.map */
+
+.takuyaku-banner{
+  margin: 30px 0;
+}

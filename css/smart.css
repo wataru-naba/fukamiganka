@@ -1,0 +1,275 @@
+@charset "UTF-8";
+#smartContents {
+  /*スマデジ
+  ------------------------------*/
+  /*診療時間
+  ------------------------------*/
+}
+#smartContents main {
+  margin: 60px 0;
+}
+#smartContents header {
+  background: #fff;
+  background-image: url("../images/bk.svg");
+  background-size: 100% auto;
+  position: relative;
+  padding-bottom: 3px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+#smartContents header::after {
+  width: 100%;
+  height: 4px;
+  background: #7ECEF4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+}
+#smartContents header.right {
+  justify-content: flex-end;
+}
+#smartContents header h1 {
+  background: #7ECEF4;
+  display: block;
+  margin: 0;
+  min-height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px 3px 0px 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-basis: 50%;
+  padding: 8px 15px 4px;
+  margin-right: 1px;
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  position: relative;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+}
+#smartContents header h1 img {
+  width: 80%;
+}
+#smartContents header h1::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 15px;
+  background: url("../../images/linkarrow.svg") no-repeat;
+  background-size: auto 100%;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#smartContents section.sumadegi {
+  padding: 30px 20px 60px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+#smartContents section.sumadegi img {
+  max-width: 100%;
+}
+#smartContents section.sumadegi h3 {
+  background: #7ECEF4;
+  color: #595757;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 10px;
+  font-weight: normal;
+}
+#smartContents section.sumadegi a.rsv-link {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 40px auto;
+  padding: 15px 30px;
+  border-radius: 40px;
+  border: solid #7ECEF4 2px;
+  color: #7ECEF4;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+#smartContents section.sumadegi a.rsv-link:hover {
+  background: #7ECEF4;
+  color: #fff;
+}
+#smartContents section.sumadegi .disc {
+  background: url("../images/bk.svg");
+  background-size: auto 100%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.6rem;
+}
+#smartContents section.sumadegi .disc span {
+  font-size: 1.2rem;
+  display: block;
+  padding: 5px 0 0;
+}
+#smartContents section.sumadegi .app {
+  background: #5185C5;
+  padding: 40px;
+}
+#smartContents section.sumadegi .app h4 {
+  margin-bottom: 30px;
+}
+#smartContents section.sumadegi .app ul {
+  padding: 0 20px;
+}
+#smartContents section.sumadegi .app ul li:first-child {
+  margin-bottom: 30px;
+}
+#smartContents section.sumadegi .more {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  right: 20px;
+  padding-top: 20px;
+  position: absolute;
+  text-decoration: underline;
+  color: #5185C5;
+}
+#smartContents .top_info {
+  padding: 40px 15px;
+}
+#smartContents .info {
+  max-width: 800px;
+  width: 100%;
+  display: table;
+}
+#smartContents .info > div {
+  display: block;
+  max-width: 500px;
+}
+#smartContents .info > div:nth-child(1) {
+  flex-basis: 30%;
+}
+#smartContents .info > div:nth-child(2) {
+  padding: 30px 0 20px;
+  text-align: center;
+}
+#smartContents .table_info {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 1px solid #595757;
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+#smartContents .table_info tr {
+  border-bottom: 1px solid #595757;
+}
+#smartContents .table_info td {
+  padding: 10px 15px;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 1.4rem;
+}
+#smartContents .table_info thead td {
+  text-align: center;
+}
+#smartContents .table_info tbody tr td:first-child {
+  text-align: center;
+}
+#smartContents .table_info tbody tr:first-child > td {
+  vertical-align: top;
+}
+#smartContents .table_info tbody tr:first-child > td:nth-child(7)::after {
+  content: "2診";
+  display: block;
+  font-size: 1.1rem;
+}
+#smartContents .shinryo_mes {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+#smartContents a.b_yoyaku {
+  margin: 0 auto;
+  height: 40px;
+  line-height: 38px;
+  border-radius: 20px;
+}
+#smartContents .hover a.b_yoyaku:hover {
+  background: #7ecef4;
+  color: #fff;
+}
+#smartContents .info > .info-tel-access {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#smartContents .tel {
+  padding: 0 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+#smartContents .access {
+  padding: 10px 0;
+  margin-left: 0;
+}
+#smartContents .access dl {
+  font-size: 1.3rem;
+}
+#smartContents .access dl dt {
+  margin-bottom: 5px;
+}
+#smartContents .access dl dd {
+  margin-bottom: 15px;
+  line-height: 1.8rem;
+}
+#smartContents .access span {
+  margin-left: 10px;
+}
+#smartContents .access a {
+  text-decoration: underline;
+  color: #E60012;
+}
+#smartContents .t_top {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  #smartContents .tel {
+    margin: 0 auto;
+    text-align: center;
+  }
+  #smartContents .top_info {
+    padding: 40px 15px;
+  }
+  #smartContents .info > div {
+    display: block;
+    max-width: 500px;
+  }
+  #smartContents .info > div:nth-child(2) {
+    padding: 30px 0 20px;
+    text-align: center;
+  }
+  #smartContents .table_info {
+    margin-bottom: 20px;
+  }
+  #smartContents .table_info td {
+    padding: 10px 5px;
+    font-size: 1.4rem;
+  }
+  #smartContents .table_info tbody tr td:first-child {
+    text-align: center;
+  }
+  #smartContents .shinryo_mes {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  #smartContents a.b_yoyaku {
+    margin: 0 auto;
+    height: 40px;
+    line-height: 38px;
+    border-radius: 20px;
+  }
+}/*# sourceMappingURL=smart.css.map */

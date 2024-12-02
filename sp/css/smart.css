@@ -1,0 +1,397 @@
+@charset "UTF-8";
+html, body {
+  width: 414px;
+  overflow-x: hidden; /* 横スクロールを無効にする */
+}
+
+main {
+  margin: 60px 0;
+}
+
+header {
+  background: #fff;
+  background-image: url("../images/bk.svg");
+  background-size: 100% auto;
+  position: relative;
+  padding-bottom: 3px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+header::after {
+  width: 100%;
+  height: 4px;
+  background: #7ECEF4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+}
+header.right {
+  justify-content: flex-end;
+}
+header h1 {
+  background: #7ECEF4;
+  display: block;
+  margin: 0;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px 3px 0px 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-basis: 40%;
+  padding: 10px 5px;
+  margin-right: 1px;
+  color: #fff;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  position: relative;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+}
+header h1::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 15px;
+  background: url("../../images/linkarrow.svg") no-repeat;
+  background-size: auto 100%;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*スマデジ
+------------------------------*/
+section.sumadegi {
+  padding: 30px 20px 60px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+section.sumadegi img {
+  max-width: 100%;
+}
+section.sumadegi h3 {
+  background: #7ECEF4;
+  color: #595757;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 10px;
+  font-weight: normal;
+}
+section.sumadegi a.rsv-link {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 40px auto;
+  padding: 15px 30px;
+  border-radius: 40px;
+  border: solid #7ECEF4 2px;
+  color: #7ECEF4;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+section.sumadegi a.rsv-link:hover {
+  background: #7ECEF4;
+  color: #fff;
+}
+section.sumadegi .disc {
+  background: url("../images/bk.svg");
+  background-size: auto 100%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.6rem;
+}
+section.sumadegi .disc span {
+  font-size: 1.2rem;
+  display: block;
+  padding: 5px 0 0;
+}
+section.sumadegi .app {
+  background: #5185C5;
+  padding: 40px;
+}
+section.sumadegi .app h4 {
+  margin-bottom: 30px;
+}
+section.sumadegi .app ul {
+  padding: 0 20px;
+}
+section.sumadegi .app ul li:first-child {
+  margin-bottom: 30px;
+}
+section.sumadegi .more {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  right: 20px;
+  padding-top: 20px;
+  position: absolute;
+  text-decoration: underline;
+  color: #5185C5;
+}
+
+/*診療時間
+------------------------------*/
+.top_info {
+  padding: 40px 15px;
+}
+
+.info {
+  max-width: 800px;
+  width: 100%;
+  display: table;
+}
+
+.info > div {
+  display: block;
+  max-width: 500px;
+}
+
+.info > div:nth-child(1) {
+  flex-basis: 30%;
+}
+
+.info > div:nth-child(2) {
+  padding: 30px 0 20px;
+  text-align: center;
+}
+
+.table_info {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 1px solid #595757;
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.table_info tr {
+  border-bottom: 1px solid #595757;
+}
+
+.table_info td {
+  padding: 10px 15px;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 1.4rem;
+}
+
+.table_info thead td {
+  text-align: center;
+}
+
+.table_info tbody tr td:first-child {
+  text-align: center;
+}
+
+.table_info tbody tr:first-child > td {
+  vertical-align: top;
+}
+
+.table_info tbody tr:first-child > td:nth-child(7)::after {
+  content: "2診";
+  display: block;
+  font-size: 1.1rem;
+}
+
+.shinryo_mes {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+a.b_yoyaku {
+  margin: 0 auto;
+  height: 40px;
+  line-height: 38px;
+  border-radius: 20px;
+}
+
+.hover a.b_yoyaku:hover {
+  background: #7ecef4;
+  color: #fff;
+}
+
+.info > .info-tel-access {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.tel {
+  padding: 0 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.access {
+  padding: 10px 0;
+  margin-left: 0;
+}
+
+.access dl {
+  font-size: 1.3rem;
+}
+
+.access dl dt {
+  margin-bottom: 5px;
+}
+
+.access dl dd {
+  margin-bottom: 15px;
+  line-height: 1.8rem;
+}
+
+.access span {
+  margin-left: 10px;
+}
+
+.access a {
+  text-decoration: underline;
+  color: #E60012;
+}
+
+.t_top {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .tel {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .top_info {
+    padding: 40px 15px;
+  }
+  .info > div {
+    display: block;
+    max-width: 500px;
+  }
+  .info > div:nth-child(2) {
+    padding: 30px 0 20px;
+    text-align: center;
+  }
+  .table_info {
+    margin-bottom: 20px;
+  }
+  .table_info td {
+    padding: 10px 5px;
+    font-size: 1.4rem;
+  }
+  .table_info tbody tr td:first-child {
+    text-align: center;
+  }
+  .shinryo_mes {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  a.b_yoyaku {
+    margin: 0 auto;
+    height: 40px;
+    line-height: 38px;
+    border-radius: 20px;
+  }
+}
+/* float-nav
+---------------------- */
+.float-nav {
+  position: fixed;
+  padding: 30px 20px;
+  background: #fff;
+  background-image: url("../images/bk.svg");
+  background-size: 100% auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.float-nav nav {
+  display: flex;
+  justify-content: center;
+}
+
+.float-nav nav a {
+  background: #7ECEF4;
+  display: block;
+  margin: 5px;
+  min-width: 300px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  position: relative;
+}
+.float-nav nav a.active {
+  background: #D3EDFB;
+}
+
+.float-nav nav a:hover {
+  background: #107299;
+}
+
+.float-nav nav a::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 15px;
+  background: url("../../images/linkarrow.svg") no-repeat;
+  background-size: auto 100%;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.float-nav nav a span {
+  display: inline-block;
+}
+
+@media screen and (max-width: 920px) {
+  .float-nav .sp-block {
+    display: block;
+  }
+  #page {
+    margin-bottom: 40px;
+  }
+  .float-nav {
+    padding: 10px 0px 3px;
+  }
+  .float-nav::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: #7ECEF4;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  .float-nav nav a {
+    min-width: auto;
+    font-size: 1.3rem;
+    margin: 0;
+    flex-basis: 33.33%;
+    padding: 5px;
+    border-radius: 3px 3px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px;
+  }
+  .float-nav nav a:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .float-nav nav a {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=smart.css.map */

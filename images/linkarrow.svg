@@ -1,0 +1,11 @@
+<svg id="_arrow" data-name="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.28 13.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M4.11,6.84L0,.43l.92-.43,4.36,6.84L.92,13.68l-.92-.43,4.11-6.41Z"/>
+</svg>

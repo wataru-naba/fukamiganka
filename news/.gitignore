@@ -1,0 +1,8 @@
+/*.php
+wp-admin
+wp-includes
+wp-content/*
+!themes
+twentytwenty
+twentytwentyone
+twentytwentytwo

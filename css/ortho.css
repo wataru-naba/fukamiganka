@@ -1,0 +1,78 @@
+/*共通
+------------------------------*/
+.contents_gray{background:#f7f7f7;padding:60px 20px 60px;line-height:1.5;}
+.contents_gray_inner{max-width:770px;}
+.contents_gray_inner img{max-width:100%;height:auto;}
+.contents_gray_inner p{margin-bottom:20px;}
+.box_ortho{background:#fff;border-radius:10px;padding:20px;}
+
+/*ナビゲーション*/
+.ortho_nav{max-width:940px;padding:150px 20px 20px;background:#fff;}
+a.ortho_nav_button{display:table;background:#7ecef4;color:#fff;height:57px;width:100%;border-radius:10px;padding:5px 5px;border:1px solid #7ecef4;line-height:1.3}
+a.ortho_nav_button span{display:table-cell;text-align:center;vertical-align:middle;font-size:1.2rem;}
+.hover a.ortho_nav_button:not(.active):hover{background:#fff;color:#7ecef4;}
+.ortho_subnav a.ortho_nav_button:not(.active){border:1px solid #7ecef4;color:#7ecef4;background:#fff;}
+.hover .ortho_subnav a.ortho_nav_button:not(.active):hover{background:#7ecef4;color:#fff;}
+
+@media (max-width:900px){
+	.ortho_nav{padding:20px;}
+}
+
+/*見出し*/
+.t_ortho{display:table;margin:50px auto 30px;border-bottom:1px solid #222;padding:0 0 7px;font-size:1.9rem;letter-spacing:2px;line-height:1.3;}
+
+/*フッター*/
+.yoyaku_mes{border:2px solid #eb6100;padding:20px;max-width:540px;text-align:center;border-radius:10px;color:#eb6100;margin-top:40px;background:#fff;}
+.yoyaku_mes p{margin-bottom:0;}
+.block_info.block_info_ortho{margin-top:0;padding-top:0;border-top:0;}
+
+/*概要
+------------------------------*/
+.t_ortho_gaiyou{display:table;margin:0 auto 20px;background:#7ecef4;color:#fff;padding:10px 20px;font-size:2rem;border-radius:15px;font-weight:normal;}
+
+.table_ortho{border-collapse:collapse;background:#fff;width:100%;}
+.table_ortho th,.table_ortho td{border:1px solid #555;padding:10px;line-height:1.3;}
+.table_ortho th{font-size:1.3rem;}
+.table_ortho td{font-size:1.2rem;}
+.table_ortho thead th{background:#7ecef4;color:#fff;}
+.table_ortho tr.highlight th{background:#7ecef4;color:#fff;}
+.table_ortho tr.highlight td{background:#dff2fc}
+
+.b_ortho.b_ortho_gaiyou{width:280px;margin-top:20px;}
+
+/*オルソケラトロジーとは
+------------------------------*/
+.ortho_kinshi{background:#fff;padding:20px;border-radius:10px;}
+.ortho_kinshi img{width:100%;height:auto;}
+
+.ortho_genri{background:#fff;padding:20px;border-radius:10px;text-align:center;}
+
+.ortho_next{position:relative;max-width:376px;margin-top:50px;line-height:1.2;}
+.ortho_next_img{position:absolute;top:50%;left:-170px;margin-top:-15px;}
+@media (max-width:767px){
+	.ortho_next_img{position:static;width:100px;margin:0 0 10px 10px;}
+}
+
+/*費用
+------------------------------*/
+.table_ortho_cost{border-collapse:collapse;width:100%;background:#fff;}
+.table_ortho_cost th,.table_ortho_cost td{padding:7px 10px;vertical-align:top}
+.table_ortho_cost thead{border-top:2px solid #555;border-bottom:2px solid #555;background:#dff2fc;}
+.table_ortho_cost thead tr th{text-align:left;}
+.table_ortho_cost tbody tr{border-bottom:1px solid #555;}
+.table_ortho_cost tbody td:nth-of-type(2){width:37%;}
+.table_ortho_cost tbody td:nth-of-type(3){width:33%;}
+
+.ortho_cost_kaiyaku{ max-width: 520px; padding-right: 15px;}
+
+@media (max-width:767px){
+.table_ortho_cost th,.table_ortho_cost td{padding:7px;font-size:1.3rem;}
+.table_ortho_cost tbody td:nth-of-type(2){width:35%;}
+.table_ortho_cost tbody td:nth-of-type(3){width:35%;}
+}
+
+/*Q&A
+------------------------------*/
+.qa_box{background:#fff;padding:20px;margin-bottom:30px;}
+.qa_box h3{color:#7ecef4;padding-left:1.2em;line-height:1.3;margin-bottom:15px;border-bottom:1px solid #222;padding-bottom:10px;font-size:1.8rem;}
+.qa_box h3:before{content:"Q";display:inline-block;width:1.2em;margin-left:-1.2em;}
