@@ -160,6 +160,7 @@
 		</div>
 		<div class="pickup_recruit mincho">
 			<ul>
+				<li>賞与：2～4.5か月分（功績による）</li>
 				<li>
 					待遇(パート・常勤)<br/>
 					交通費規定支給<br/>
