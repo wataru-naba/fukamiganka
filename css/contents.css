@@ -231,3 +231,83 @@ a.b_change{margin:10px auto 0;display:block;max-width:100px;text-align:center;}
 .list-maru li{
 	list-style: disc;
 }
+
+/*近視進行抑制治療
+------------------------------*/
+.box_blue{
+	background: #c7e8fa;
+	padding: 40px;
+}
+.box_myopine_desc h3{
+	text-align: center;
+	border: 1px solid #231815;
+	padding: 10px 30px;
+	width: fit-content;
+	margin: 0 auto 40px;
+	letter-spacing: 0.1em;
+}
+
+.box_myopine_desc dt{
+	padding-left: 23px;
+	font-size: 1.9rem;
+	position: relative;
+	margin-bottom: 10px;
+}
+.box_myopine_desc dt::before{
+	content: '●';
+	position: absolute;
+	left: 0;
+}
+.box_myopine_desc dd{
+	padding-left: 23px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+dl.kinshi_qa dt{
+	margin-bottom: 20px;
+	color: #4fc2f1;
+}
+dl.kinshi_qa dd{
+	margin-bottom: 20px;
+}
+
+dl.kinshi_table{
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid #231815;
+}
+dl.kinshi_table dt,
+dl.kinshi_table dd{
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 1.4rem;
+}
+dl.kinshi_table dt{
+	flex-basis: 200px;
+	border-right: 1px solid #231815;
+	border-bottom: 1px solid #231815;
+}
+dl.kinshi_table dt:nth-child(7){
+	border-bottom: none;
+}
+dl.kinshi_table dd{
+	flex-basis: calc(100% - 200px);
+	border-bottom: 1px solid #231815;
+}
+dl.kinshi_table dd:last-child{
+	border-bottom: none;
+}
+
+@media (max-width:767px){
+	dl.kinshi_table{
+		display: block;
+	}
+	dl.kinshi_table dt{
+		border-right: none;
+		font-weight: bold;
+	}
+	dl.kinshi_table dt:nth-child(7){
+		border-bottom: 1px solid #231815;
+		
+	}
+}
