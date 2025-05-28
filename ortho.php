@@ -53,7 +53,7 @@
 
 <nav class="ortho_nav">
 	<ul class="tile a2-b2-c4 am5-bm10">
-		<li><a href="./ortho_about.php" class="ortho_nav_button"><span>オルソケラトロジーとは</span></a></li>
+		<li><a href="./ortho_about.php" class="ortho_nav_button"><span>オルソケラトロジー<br/>（ナイトコンタクト）とは</span></a></li>
 		<li><a href="./ortho_merit-demerit.php" class="ortho_nav_button"><span>オルソケラトロジーの向き不向き<br>メリットデメリット</span></a></li>
 		<li><a href="./ortho_cost.php" class="ortho_nav_button"><span>オルソケラトロジーの費用</span></a></li>
 		<li><a href="./ortho_qa.php" class="ortho_nav_button"><span>オルソケラトロジーQ&amp;A</span></a></li>
@@ -64,7 +64,7 @@
 
 <div class="contents_gray_inner">
 
-<h1 class="t_ortho_gaiyou mincho">オルソケラトロジーの概要</h1>
+<h1 class="t_ortho_gaiyou t_ortho_gaiyou--img mincho"><img src="./images/svg/ortho_gaiyo.svg" alt="オルソケラトロジーの概要" ></h1>
 <p>オルソケラトロジーとは近視を矯正する治療法の一種です。世界各国でその安全性と有効性が認められ、現在では日本でも実施されています。特殊なコンタクトレンズを寝ている間に装用して矯正を行います。特に小児期の近視の進行抑制に効果があると注目されています。</p>
 
 <h2 class="t_ortho mincho">治療の流れ</h2>
@@ -166,7 +166,7 @@
 
 <h2 class="t_ortho mincho">スペシャルコラム</h2>
 <ul class="tile a1-b1-c2 am15">
-	<li><a href="./ortho_about.php" class="ortho_menu_button"><span>オルソケラトロジーとは</span></a></li>
+	<li><a href="./ortho_about.php" class="ortho_menu_button"><span>オルソケラトロジー<br/>（ナイトコンタクト）とは</span></a></li>
 	<li><a href="./ortho_merit-demerit.php" class="ortho_menu_button"><span>オルソケラトロジーの向き不向き<br>メリットデメリット</span></a></li>
 	<li><a href="./ortho_cost.php" class="ortho_menu_button"><span>オルソケラトロジーの費用</span></a></li>
 	<li><a href="./ortho_qa.php" class="ortho_menu_button"><span>オルソケラトロジーQ&amp;A</span></a></li>

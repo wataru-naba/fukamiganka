@@ -16,8 +16,8 @@
                 <a href="./qa.php">よくある質問<br/>Q&A</a>
                 <a href="./sick.php">目の病気</a>
                 <a href="./sick_hakunaisho.php" >白内障手術</a>
-                <a href="./ortho.php">オルソケラトロジー<br>（自費診療）</a>
-                <a href="./myopine.php">マイオピン点眼薬<br>（自費診療）</a>
+                <a href="./ortho.php">ナイトコンタクト</a>
+                <a href="./myopine_kinshi.php">近視進行抑制点眼薬</a>
                 <a href="./recruit.php">採用情報</a>
                 </nav>
             </div>

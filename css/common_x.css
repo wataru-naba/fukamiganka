@@ -44,6 +44,7 @@ a:hover{color:#7ecef4;}
 	background-size:1px 5px;
 	background-position:0 -3px;
 }
+.nav_list a:hover{color:#000}
 
 .nav_list a i{float:right;display:none;}
 .hover .nav_list li:not(.active) a:hover{color:#7ecef4}

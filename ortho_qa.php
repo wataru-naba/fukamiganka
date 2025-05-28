@@ -58,7 +58,7 @@
 
 <nav class="ortho_nav ortho_subnav">
 	<ul class="tile a2-b2-c4 am5-bm10">
-		<li><a href="./ortho_about.php" class="ortho_nav_button"><span>オルソケラトロジーとは</span></a></li>
+		<li><a href="./ortho_about.php" class="ortho_nav_button"><span>オルソケラトロジー<br/>（ナイトコンタクト）とは</span></a></li>
 		<li><a href="./ortho_merit-demerit.php" class="ortho_nav_button"><span>オルソケラトロジーの向き不向き<br>メリットデメリット</span></a></li>
 		<li><a href="./ortho_cost.php" class="ortho_nav_button"><span>オルソケラトロジーの費用</span></a></li>
 		<li><a href="./ortho_qa.php" class="ortho_nav_button active"><span>オルソケラトロジーQ&amp;A</span></a></li>

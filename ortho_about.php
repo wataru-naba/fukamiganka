@@ -58,7 +58,7 @@
 
 <nav class="ortho_nav ortho_subnav">
 	<ul class="tile a2-b2-c4 am5-bm10">
-		<li><a href="./ortho_about.php" class="ortho_nav_button active"><span>オルソケラトロジーとは</span></a></li>
+		<li><a href="./ortho_about.php" class="ortho_nav_button active"><span>オルソケラトロジー<br/>（ナイトコンタクト）とは</span></a></li>
 		<li><a href="./ortho_merit-demerit.php" class="ortho_nav_button"><span>オルソケラトロジーの向き不向き<br>メリットデメリット</span></a></li>
 		<li><a href="./ortho_cost.php" class="ortho_nav_button"><span>オルソケラトロジーの費用</span></a></li>
 		<li><a href="./ortho_qa.php" class="ortho_nav_button"><span>オルソケラトロジーQ&amp;A</span></a></li>
@@ -68,7 +68,7 @@
 <div class="contents_gray">
 <div class="contents_gray_inner">
 
-<h2 class="t_ortho mincho m-t-0">オルソケラトロジーとは</h2>
+<h2 class="t_ortho mincho m-t-0">オルソケラトロジー<span>（ナイトコンタクト）とは</span></h2>
 <p>オルソケラトロジーは、高酸素透過性の<span class="ub">特殊なハードコンタクトレンズ</span>（HCL）を用いて、角膜形状を変化させ、<strong class="ub">近視を矯正する治療法</strong>です。アメリカでは30年以上前から、研究・処方され、現在、アメリカ・ヨーロッパ・アジアを中心に、<span class="ub">世界各国でその安全性と有効性</span>が認められ、実施されています。また、日本でも2009年に株式会社アルファコーポレーション（現在、株式会社アルファコーポレーション製造、株式会社メニコン販売）が日本で初めてオルソケラトロジーレンズの認可を取得し、販売を開始しました。現在、厚生省から認可されているオルソケラトロジー用のレンズは数種類ありますが、当院では、株式会社メニコンが販売する国産のオルソケラトロジーレンズ「メニコンオルソK」を使用します。</p>
 <p>特殊なコンタクトレンズを寝ている間に装用する事で、睡眠中に角膜の形状が矯正され、日中を裸眼で過ごすことができます。特に<span class="ub">小児期の近視の進行抑制</span>に効果があると注目されています。外科手術ではありませんので、レンズの装用を中止すれば、2週間ほどで角膜は<span class="ub">もとの状態に戻ります</span>。万が一、合わないと感じても、いつでも中断できるので安心です。</p>
 
@@ -163,10 +163,10 @@
 	</tbody>
 </table>
 
-<h2 class="t_ortho mincho">0.01%アトロピン（マイオピン）点眼との併用</h2>
-<p>オルソケラトロジーと0.01%アトロピン（マイオピン）点眼を併用することで、オルソケラトロジー単独療法よりも、近視進行抑制効果が報告されています。併用の際は、マイオピン点眼をさしてから、5分以上時間をあけてオルソケラトロジーレンズを装用して下さい。</p>
-
-<a href="./myopine.html" class="b_ortho b_ortho_gaiyou">マイオピン点眼についてはこちら<i class="icon-right-circle"></i></a>
+<h2 class="t_ortho mincho">近視進行抑制点眼薬との併用</h2>
+<p>オルソケラトロジーと0.01%アトロピン（マイオピン）点眼を併用することで、オルソケラトロジー単独療法よりも、近視進行抑制効果が報告されています。併用の際は、マイオピン点眼をさしてから、5分以上時間をあけてオルソレンズを装用して下さい。</p>
+<p class="m-b-40">現在当院では0.01%アトロピン（マイオピン）点眼は取り扱っておりません。0.025%アトロピン（リジュセア®ミニ点眼液0.025％）は取り扱っておりますので、ご希望があればこちらを処方致します。</p>
+<a href="./myopine_kinshi.php" class="b_ortho b_ortho_gaiyou">近視進行抑制点眼薬についてはこちら<i class="icon-right-circle"></i></a>
 
 <div class="ortho_next">
 	<img src="./images/next.png" alt="NEXT" width="161" class="ortho_next_img">

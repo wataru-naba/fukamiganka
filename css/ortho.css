@@ -20,7 +20,7 @@ a.ortho_nav_button span{display:table-cell;text-align:center;vertical-align:midd
 
 /*見出し*/
 .t_ortho{display:table;margin:50px auto 30px;border-bottom:1px solid #222;padding:0 0 7px;font-size:1.9rem;letter-spacing:2px;line-height:1.3;}
-
+.t_ortho span{display: inline-block;}
 /*フッター*/
 .yoyaku_mes{border:2px solid #eb6100;padding:20px;max-width:540px;text-align:center;border-radius:10px;color:#eb6100;margin-top:40px;background:#fff;}
 .yoyaku_mes p{margin-bottom:0;}
@@ -29,7 +29,8 @@ a.ortho_nav_button span{display:table-cell;text-align:center;vertical-align:midd
 /*概要
 ------------------------------*/
 .t_ortho_gaiyou{display:table;margin:0 auto 20px;background:#7ecef4;color:#fff;padding:10px 20px;font-size:2rem;border-radius:15px;font-weight:normal;}
-
+.t_ortho_gaiyou--img{ display: flex;justify-content: center;align-items: center; width: fit-content;  }
+.t_ortho_gaiyou--img img{width:100%;height:auto; max-width: 400px;}
 .table_ortho{border-collapse:collapse;background:#fff;width:100%;}
 .table_ortho th,.table_ortho td{border:1px solid #555;padding:10px;line-height:1.3;}
 .table_ortho th{font-size:1.3rem;}
@@ -38,7 +39,7 @@ a.ortho_nav_button span{display:table-cell;text-align:center;vertical-align:midd
 .table_ortho tr.highlight th{background:#7ecef4;color:#fff;}
 .table_ortho tr.highlight td{background:#dff2fc}
 
-.b_ortho.b_ortho_gaiyou{width:280px;margin-top:20px;}
+.b_ortho.b_ortho_gaiyou{width:fit-content;margin-top:20px; padding: 10px 20px; display: flex; align-items: center; gap: 10px;}
 
 /*オルソケラトロジーとは
 ------------------------------*/

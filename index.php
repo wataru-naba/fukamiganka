@@ -68,8 +68,8 @@
 		<a href="./qa.php"><span>よくある質問<br/>Q&A</span></a>
 		<a href="./sick.php" class="lower_row">目の病気</a>
         <a href="./sick_hakunaisho.php"  class="lower_row">白内障手術</a>
-		<a href="./ortho.php"  class="lower_row"><span>オルソケラトロジー<br>（自費診療）</span></a>
-		<a href="./myopine.php"  class="lower_row"><span>マイオピン点眼薬<br>（自費診療）</span></a>
+		<a href="./ortho.php"  class="lower_row"><span>ナイトコンタクト</span></a>
+		<a href="./myopine_kinshi.php"  class="lower_row"><span>近視進行抑制点眼薬</span></a>
 		<a href="./recruit.php"  class="lower_row">採用情報</a>
 	</div>
 </nav>
