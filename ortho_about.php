@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>オルソケラトロジーとは - 豊田市で白内障手術なら【深見眼科】　WEB・電話予約可</title>
+<title>オルソケラトロジー（ナイトコンタクト）とは - 豊田市で白内障手術なら【深見眼科】　WEB・電話予約可</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <meta name="description" content="">

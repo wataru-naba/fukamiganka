@@ -41,8 +41,8 @@
 	  },{
 		"@type": "ListItem", 
 		"position": 2, 
-		"name": "マイオピン点眼",
-		"item": "https://fukami-ganka.jp/myopine.html"  
+		"name": "近視進行抑制点眼薬",
+		"item": "https://fukami-ganka.jp/myopia_control.html"  
 	  }]
 	}
 	</script>
