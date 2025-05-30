@@ -55,7 +55,7 @@
 
 <div class="contents">
 
-<h2 class="title"><img src="./images/t_myopine_kinshi.webp" alt="マイオピン点眼薬（自費診療）" width="100"></h2>
+<h2 class="title"><img src="./images/t_myopia_control.webp" alt="マイオピン点眼薬（自費診療）" width="100"></h2>
 
 <div class="block p-t-0">
 	<div class="inner">
@@ -85,7 +85,7 @@
 				<dd>A.近視とは、眼の中に入った光のピントが合う位置が網膜より前になっている状態のことをいいます。近視の多くは、眼球が前後に伸びることによって起こります。また、眼球は体が成長する時期に伸びることが多く、低年齢の頃に早く伸びる可能性があります。</dd>
 			</dl>
 			<figure class="al-c">
-				<img src="./images/myopine_kinshi_01.webp" alt="近視のQ&A">
+				<img src="./images/myopia_control_01.webp" alt="近視のQ&A">
 			</figure>
 			<dl class="kinshi_qa">
 				<dt>Q.近視は増えている？</dt>
@@ -101,7 +101,7 @@
 			近視は子供のときほど速く進む可能性があります。早い段階からできるだけ近視が強くなることを避けることで、将来の見え方を守り、眼の病気になる可能性を低下させることが治療の目的です。
 			</p>
 			<figure class="al-c">
-				<img src="./images/myopine_kinshi_02.webp" alt="近視のQ&A">
+				<img src="./images/myopia_control_02.webp" alt="近視のQ&A">
 			</figure>
 		</div>
 
@@ -126,7 +126,7 @@
 				<dt>３回目の治療以降は３か月毎の定期的な通院が必要です。</dt>
 				<dd>診察・検査費用（３,０００円） ＋ 点眼薬費用（４,３８０円/本）半年ごとの精密検査時（眼軸長検査を含む）は上記金額に加えて、（２，０００円）がかかります　</dd>
 			</dl>
-			<p class="single-icon-kome m-t-20 m-b-5">表記金額は全て税別です。</p>
+			<p class="single-icon-kome m-t-20 m-b-5">表記金額は全て税込です。</p>
 			<p class="single-icon-kome">お支払いは現金またはPayPayのみとなります。<br/>現在クレジットカード決済には対応しておりませんのでご了承ください。</p>
 			<dl class="kinshi_qa">
 				<dt>Q.検査は予約できるの？</dt>

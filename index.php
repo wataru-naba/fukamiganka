@@ -69,7 +69,7 @@
 		<a href="./sick.php" class="lower_row">目の病気</a>
         <a href="./sick_hakunaisho.php"  class="lower_row">白内障手術</a>
 		<a href="./ortho.php"  class="lower_row"><span>ナイトコンタクト</span></a>
-		<a href="./myopine_kinshi.php"  class="lower_row"><span>近視進行抑制点眼薬</span></a>
+		<a href="./myopia_control.php"  class="lower_row"><span>近視進行抑制点眼薬</span></a>
 		<a href="./recruit.php"  class="lower_row">採用情報</a>
 	</div>
 </nav>

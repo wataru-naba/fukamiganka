@@ -11,7 +11,7 @@ const menuActives = [
 	'sick',
 	'sick_hakunaisho',
 	'ortho',
-	'myopine_kinshi',
+	'myopia_control',
 	'recruit'
 ]
 
