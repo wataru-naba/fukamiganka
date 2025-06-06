@@ -114,7 +114,6 @@
 				</tr>
 			</table>
 			<div class="m-t-10 size-13">※表記金額は全て税込です。</div>
-			<p class="single-icon-kome m-t-20">お支払いは現金またはPayPayのみとなります。<br>現在クレジットカード決済には対応しておりませんのでご了承ください。</p>
 
 			<h3 class="t_sub mincho">未承認機器・医薬品に関する注意事項</h3>
 			<div >
