@@ -96,6 +96,18 @@
 
 <div class="top_message m-b-30 pc767" style="margin-top:-30px">
 	<div class="inner">
+		<h1>2025年7月からの土曜日診療時間変更のお知らせ</h1>
+		<p>
+		2025年7月より、土曜日の診療時間を以下の通り変更いたします。<br/>
+		•<strong>診療時間:</strong> 午前9:00〜午後12:00<br/>
+		•<strong>受付時間:</strong> 午前8:30〜午前11:45<br/>
+		ご理解とご協力をお願い申し上げます。
+		</p>
+	</div>
+</div>
+
+<div class="top_message m-b-30 pc767" style="margin-top:-30px">
+	<div class="inner">
 		<h1>平日午前の2診制導入のお知らせ</h1>
 		<p>当院では毎週土曜日は２診制で診察させていただいておりますが、2023年4月からは常勤医師を1名増員し、平日午前も2診制となります。<br/>
 		今後も患者様の待ち時間改善と丁寧な診察をできるよう努めて参ります。尚、日帰り白内障手術は週2回行っております。どうぞお気軽にご相談下さい。
@@ -122,6 +134,18 @@
 		<div class="mi mi3"><img src="./images/mes3.svg" alt="皆さまにお届けしたい。"></div>
 	</div>
 	<div class="loader"><div class="line-spin-fade-loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+</div>
+
+<div class="top_message sp767">
+	<div class="inner">
+	<h1>2025年7月からの土曜日診療時間変更のお知らせ</h1>
+		<p>
+		2025年7月より、土曜日の診療時間を以下の通り変更いたします。<br/>
+		•<strong>診療時間:</strong> 午前9:00〜午後12:00<br/>
+		•<strong>受付時間:</strong> 午前8:30〜午前11:45<br/>
+		ご理解とご協力をお願い申し上げます。
+		</p>
+	</div>
 </div>
 
 <div class="top_message sp767">
