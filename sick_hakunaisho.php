@@ -135,56 +135,15 @@
 
 </section>
 <section class="block block_sick">
-    <table class="sicktable">
-        <tbody>
-            <tr>
-                <th>
-                    総手術件数<br/>
-                    2022年1月〜11月末現在
-                </th>
-                <td>
-                    469件
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <div class="division_table">
-        <div>
-            <table class="sicktable">
-                <tbody>
-                    <tr>
-                        <th>
-                            総手術件数<br/>
-                            2022年度 <br/>(1月~12月)
-                        </th>
-                        <td>
-                            523件<br/>
-                            ※見込み
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div>
-            <table class="sicktable">
-                <tbody>
-                    <tr>
-                        <th>白内障手術</th>
-                        <td>487件</td>
-                    </tr>
-                    <tr>
-                        <th>緑内障手術</th>
-                        <td>23件</td>
-                    </tr>
-                    <tr>
-                        <th>翼状片手術</th>
-                        <td>13件</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div><!-- /.division_table -->
-
+    <p>副院長の手術件数の実績</p>
+    <figure>
+        <img src="./images/graf_hakunai_2022.webp" alt="副院長の手術件数の実績">
+    </figure>
+    <figure>
+        <img src="./images/graf_hakunai_2023.webp" alt="副院長の手術件数の実績">
+    </figure>
+    <p>※2024年は集計中です。</p>
+    <p>現在も副院長は、総合上飯田第一病院にて週1回手術を担当し、日々研鑽を積んでおります。同病院眼科の2022年総手術件数は2,421件に上り、この豊富な経験が当院での診療に活かされています。</p>
 </section>
 <!--診療時間-->
 <?php include('./inc/footer.php')?>
