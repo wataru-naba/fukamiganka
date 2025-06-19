@@ -398,7 +398,7 @@ main.invisible{
 	background: #fff;
 	position: absolute;
 	width: 90%;
-	max-width: 920px;
+	max-width: 1200px;
 	overflow-y: scroll;
 	left: 50%;
 	top: 50%;
@@ -431,6 +431,10 @@ main.invisible{
 }
 #modal-shinryo{
 	display: none;
+}
+#modal-shinryo .info{
+	max-width: none;
+	display: flex;
 }
 #modal-degisuma figure{
 	position: relative;
