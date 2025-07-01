@@ -172,9 +172,7 @@ a:hover{color:#7ecef4;}
 	margin-bottom: 10px;
 }
 .consultation .hour{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	
 	font-size: 1.2rem;
 	line-height: 1.6rem;
 	flex-basis:30%;
@@ -218,3 +216,12 @@ a:hover{color:#7ecef4;}
   }
 
 .link-blue, .link-blue:link, .link-blue:visited{color:#007bff;}
+
+@media screen and (max-width: 416px){
+	.consultation dt{
+		font-size: 1rem;
+	}
+	.consultation-catch{
+		font-size: 1.3rem;
+	}
+}

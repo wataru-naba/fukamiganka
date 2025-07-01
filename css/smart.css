@@ -43,7 +43,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 3px 3px 0px 0px;
-  width: -moz-fit-content;
   width: fit-content;
   flex-basis: 50%;
   padding: 8px 15px 4px;
@@ -90,7 +89,6 @@
 }
 #smartContents section.sumadegi a.rsv-link {
   display: block;
-  width: -moz-fit-content;
   width: fit-content;
   margin: 40px auto;
   padding: 15px 30px;
@@ -131,7 +129,6 @@
 }
 #smartContents section.sumadegi .more {
   display: block;
-  width: -moz-fit-content;
   width: fit-content;
   right: 20px;
   padding-top: 20px;

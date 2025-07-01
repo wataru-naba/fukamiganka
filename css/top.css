@@ -142,9 +142,9 @@ a.ortho_menu_button span{display:table-cell;text-align:center;vertical-align:mid
 /*診療時間
 ------------------------------*/
 .top_info{padding:70px 20px}
-.info{max-width:800px;width:100%;display:table;}
+.info{max-width:1000px;width:100%;display:flex; gap: 10px;}
 .info>div{display:table-cell;vertical-align:top;}
-.info>div:nth-child(1){ flex-basis: 30%;}
+.info>div:nth-child(1){ flex-basis: 25%;}
 .info>div:nth-child(2){ flex-basis: 70%;}
 
 .table_info{border-collapse:collapse;width:100%;border-top:1px solid #595757;margin-bottom:10px;}
@@ -198,8 +198,9 @@ a.b_yoyaku{display:block;width:195px;height:50px;line-height:48px;border:1px sol
 }
 
 @media screen and (max-width:767px){
-.top_info{padding:40px 15px;border-bottom:1px solid #ccc;}
-.info>div{display:block;max-width:500px;}
+.top_info{padding:40px 15px;border-bottom:1px solid #ccc; }
+.info{flex-wrap: wrap;}
+.info>div{display:block;max-width:500px; flex-basis: 100% !important;}
 .info>div:nth-child(2){padding:30px 0 20px; text-align:center;}
 
 .table_info{margin-bottom:20px;}

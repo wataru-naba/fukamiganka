@@ -12,11 +12,10 @@
 <link rel="stylesheet" href="./css/loaders.min.css">
 <link rel="stylesheet" href="./css/font.css">
 <link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/common.css">
-<link rel="stylesheet" href="./css/top.css">
+<link rel="stylesheet" href="./css/common.css?<?=time()?>">
+<link rel="stylesheet" href="./css/top.css?<?=time()?>">
 <link rel="stylesheet" href="./css/sub.css">
 <link rel="stylesheet" href="./css/contents.css">
-<link rel="stylesheet" href="./css/smart.css">
 <link rel="stylesheet" href="./css/yoyaku.css?1107">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>

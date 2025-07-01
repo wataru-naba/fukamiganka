@@ -43,7 +43,6 @@ header h1 {
   align-items: center;
   justify-content: center;
   border-radius: 3px 3px 0px 0px;
-  width: -moz-fit-content;
   width: fit-content;
   flex-basis: 40%;
   padding: 10px 5px;
@@ -90,7 +89,6 @@ section.sumadegi h3 {
 }
 section.sumadegi a.rsv-link {
   display: block;
-  width: -moz-fit-content;
   width: fit-content;
   margin: 40px auto;
   padding: 15px 30px;
@@ -131,7 +129,6 @@ section.sumadegi .app ul li:first-child {
 }
 section.sumadegi .more {
   display: block;
-  width: -moz-fit-content;
   width: fit-content;
   right: 20px;
   padding-top: 20px;
@@ -147,7 +144,7 @@ section.sumadegi .more {
 }
 
 .info {
-  max-width: 800px;
+  max-width: 1200px;
   width: 100%;
   display: table;
 }
