@@ -1,3 +1,8 @@
+<?php
+//https://fukami-ganka.jp/news/recruit/へリダイレクト
+header("Location: https://fukami-ganka.jp/news/recruit/");
+exit;
+?>
 <!doctype html>
 <html lang="ja">
 <head>

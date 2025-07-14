@@ -47,6 +47,5 @@
 
 <script src="./js/jquery.easing.1.3.js"></script>
 <script src="./js/slick/slick.min.js"></script>
-<script src="./js/navActive.js?<?= time()?>"></script>
 <script src="./js/modal.js?<?= time()?>"></script>
 <script src="./js/script.noviewport.js?<?= time()?>"></script>
