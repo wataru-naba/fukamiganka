@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+<base href="<?= base_url ()?>">
 <?php wp_head(); ?>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
