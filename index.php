@@ -96,6 +96,18 @@
 
 <div class="top_message m-b-30 pc767" style="margin-top:-30px">
 	<div class="inner">
+		<h1>2025年10月からの午後診療時間変更のお知らせ</h1>
+		<p>
+		2025年10月より、午後の診療時間を以下の通り変更いたします。<br/>
+		•<strong>診療時間:</strong>午後15:00〜午後18:00<br/>
+		•<strong>受付時間:</strong>午後15:00〜午後18:00<br/>
+		ご理解とご協力をお願い申し上げます。
+		</p>
+	</div>
+</div>
+
+<div class="top_message m-b-30 pc767" style="margin-top:-30px">
+	<div class="inner">
 		<h1>2025年7月からの土曜日診療時間変更のお知らせ</h1>
 		<p>
 		2025年7月より、土曜日の診療時間を以下の通り変更いたします。<br/>
