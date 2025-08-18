@@ -63,7 +63,6 @@
 		<div class="bio_wrap clearfix">
 			<div class="bio_l">
 				<h3><img src="./images/t_bio.png" alt="略歴" width="88" class="imgfix"></h3>
-				
 			</div>
 			<div class="bio_r">
 				<ul>
@@ -72,6 +71,18 @@
 					<li>ボストン大学留学</li>
 					<li>眼科専門医取得</li>
 					<li>大学病院勤務を経て、当クリニックを開院</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bio_wrap clearfix">
+			<div class="bio_l">
+				<h3 class="bio_title mincho">資格</h3>
+			</div>
+			<div class="bio_r">
+				<ul>
+					<li>日本眼科学会認定眼科専門医</li>
+					<li>難病指定医</li>
+					<li>身体障害者福祉法15条指定医</li>
 				</ul>
 			</div>
 		</div>
@@ -103,6 +114,22 @@
 				</ul>
 			</div>
 			
+		</div>
+		<div class="bio_wrap clearfix m-t-20">
+			<div class="bio_l">
+				<h3 class="bio_title mincho">資格</h3>
+			</div>
+			<div class="bio_r">
+				<ul>
+					<li>医学博士</li>
+					<li>日本眼科学会認定眼科専門医</li>
+					<li>難病指定医</li>
+					<li>身体障害者福祉法15条指定医</li>
+					<li>ボトックス治療認定医</li>
+					<li>水晶体嚢拡張リング(CTR)講習修了</li>
+					<li>PDT認定医</li>
+				</ul>
+			</div>
 		</div>
 		<dl class="profile">
 			<dt>趣味</dt>

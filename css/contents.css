@@ -9,6 +9,17 @@
 .bio_wrap{display:table;}
 .bio_l{display:table-cell;vertical-align:top;padding:20px 40px 0 0}
 .bio_r{display:table-cell;width:100%;vertical-align: middle;}
+.bio_title{
+	width: 88px;
+	height: 88px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid 1px #b9b2b2;
+	font-size:1.4rem;font-weight:normal;margin-bottom:20px;
+	font-family: 'Noto Serif JP', serif;
+	letter-spacing: 0.1em;
+}
 p.msg{text-align: center;line-height: 3.5rem;font-size: 1.6rem;}
 
 dl.profile{
@@ -46,11 +57,13 @@ dl.profile dd span::before{
 .block_bio{background:#f7f7f7;padding:40px 15px 10px;}
 .bio_l{display:block;text-align:center;padding:0 0 30px 0;}
 .bio_r{display:block;}
+.bio_title{margin: 20px auto 0px;}
 p.msg{text-align: left;font-size: 1.5rem;}
 dl.profile{
 	display: block;
 }
 dl.profile dt{display: block;}
+
 }
 
 
